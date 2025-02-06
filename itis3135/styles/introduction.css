@@ -1,17 +1,13 @@
-.bullet-points{
-    color: brown;
-}
-
-body{
-    background-color: bisque;
-    text-align: center;
-}
-
-img{
+.me{
     margin: 0 auto;
 	margin-top: 3.5%;
 	display:block;
 	border-radius: 50%;
 	object-fit: cover;
 	border: 3px solid #515052;
+}
+li{
+	text-align: left;
+	margin-left: 12%;
+	margin-right: 12%;
 }

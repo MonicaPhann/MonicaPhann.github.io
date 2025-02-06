@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(121, 195, 150);
+    text-align: center;
+    position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: rgb(88, 77, 65);
+}
+
+a:hover{
+    color:whitesmoke;
+    text-decoration: line;
+}
+
+main{
+    color: rgb(118, 74, 53);
+    text-align: left;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
