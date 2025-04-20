@@ -1,0 +1,136 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cafbdf;
+    color: #1C1C1C;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3c3939;
+    color: #F5F5F5; 
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; 
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px; 
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    color: green;
+    margin: 20px 0;
+}
+
+.slogan{
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+nav a {
+    color: #1C1C1C;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #A8D08D;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F5F5F5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.sub h2 {
+    font-size: 2rem;
+    color: #1C1C1C;
+    margin-bottom: 20px;
+}
+
+main p {
+    color: #1C1C1C;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #3c3939;
+    color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer nav {
+    margin-bottom: 10px;
+}
+
+footer nav a {
+    color: #F5F5F5;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer nav a:hover {
+    color: #A8D08D;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+#validation-link-html,
+#validation-link-css {
+    margin: 10px;
+}
+
+#validation-link-html img,
+#validation-link-css img {
+    width: 120px;
+}
+
+button {
+    background-color: #A8D08D;
+    color: #1C1C1C;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #F8A8C8;
+}

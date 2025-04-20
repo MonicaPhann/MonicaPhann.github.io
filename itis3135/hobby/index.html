@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monica Phann's Cooking Hobby</title>
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+		<style type="text/css">
+			html{
+				background-color: #e3d193;
+				text-align: center;
+				font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+			}
+
+			a:hover{
+				color:whitesmoke;
+				text-decoration: underline;
+			}
+
+            h1{
+                color: rgb(153, 95, 47);
+            }
+
+			h2{
+				text-align: left;
+                color: brown;
+			}
+
+            p{
+                text-align: center;
+                color: rgb(88, 77, 65);
+            }
+
+            section {
+                display: none;
+            }
+
+            .active {
+            display: block;
+            }
+
+            a {
+                color: rgb(88, 77, 65);
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+            nav span {
+                display: inline-block;
+                padding: 0 10px;
+            }
+
+            nav{
+                background-color: rgba(241, 218, 105, 0.795);
+            }
+
+            .definition{
+                padding-left: 5%;
+            }
+
+            li{
+                text-align: left;
+                color: rgb(88, 77, 65);
+            }
+
+            figcaption{
+                color: rgb(153, 95, 47);
+            }
+		</style>
+        
+        <script>
+            document.getElementById("validation-link-html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+            document.getElementById("validation-link-css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+        <script src="script.js"></script>
+        
+
+    </head>
+    <body>
+
+        <header><h1>Monica Phann's Cooking Hobby</h1></header>
+
+        <main>
+            <nav>
+                <span><a onclick="showSection('home')">-+ Home +-</a></span> 
+                <span><a onclick="showSection('about')">-+ About Cooking +-</a></span> 
+                <span><a onclick="showSection('when')">-+ Best Times +-</a></span>
+                <span><a onclick="showSection('where')">-+ Where do I Cook +-</a></span>
+                <span><a onclick="showSection('how')">-+ How to Cook +-</a></span>
+                <span><a onclick="showSection('why')">-+ Why You Should Cook +-</a></span>
+            </nav>
+    
+            <br>
+    
+            <section id="home" class="active">
+                <h2>Welcome to my Hobby Page!</h2>
+                <p class="definition">Cooking is the art and science of preparing food by combining ingredients and applying heat or other techniques to transform raw elements into flavorful, nourishing meals. It encompasses various methods such as boiling, frying, roasting, baking, and steaming. Cooking is not just a necessity but also a cultural expression, bringing people together through shared meals and traditions.</p>
+        
+                <figure>
+                    <img src="images/cooking_scene.png" alt="cooking scene">
+                    <figcaption><i>Cozy Kitchen</i></figcaption>
+                </figure>
+                <p>
+                    This image shows a cozy kitchen where the art of cooking is being enjoyed. There are many different tools and ingredients that are being used to create a delicious meal. Cooking encourages creativity by being able to transform raw ingredients into a enriching meal. For many, cooking is a very enjoyable and relaxing experience with a tasty reward.
+                </p>
+            </section>
+    
+            <section id="about">
+                <h2>About Cooking</h2>
+                <p class="definition">I have always been interested in cooking ever since I got into high school. My high school had a culinary class, but unfortunately I wasn't able to take it. This led me to cooking on my own, trying out new recipies that I found on the internet and trying to create my own foods.</p>
+                
+                <figure>
+                    <img src="images/chicken.png" alt="food">
+                    <figcaption><i>Rotisserie Chicken</i></figcaption>
+                </figure>
+                <p>Cooking became a way for me to relieve some stress, whether it was from school, work, or other things. The good thing about cooking is that there is a tasty reward after putting in all your efforts. You also get to share the food to family to try, which always feels nice when they enjoy the food.</p>
+            </section>
+
+            <section id="when">
+                <h2>Best times to Cook!</h2>
+                <ul>
+                    <li>Early in the morning: Usually cooking while the sun is coming up is really refreshing since the sun kind of wakes you up.</li>
+                    <li>Late at night: Sometimes making a midnight snack is a nice way to end off the day.</li>
+                    <li>With Friends! Cooking with friends always makes it more enjoyable and a memorable experience.</li>
+                </ul>
+                <br>
+                <figure>
+                    <img src="images/table.png" alt="table">
+                    <figcaption><i>Food at Night and Day</i></figcaption>
+                </figure>
+                <p>The fun part of cooking is that there are different types of meal depending on the time you a eating, for instance breakfast foods are much more different than dinner foods. This image was able to depict the feeling and scenary of this perfectly</p>
+            </section>
+
+            <section id="where">
+                <h2>Where do I Cook?</h2>
+                <p class="definition">I usually cook in my kitchen at home since I am a commuter, but occassionally I will cook at my friends house usually bake something together. My kitchen isn't the biggest or most aestetic, but it gets the job done still.</p>
+                <figure>
+                    <img src="images/kitchen.jpg" alt="kitchen">
+                    <figcaption><i>My Kitchen</i></figcaption>
+                </figure>
+                <p>My kitchen is a bit small, but it has all the essentials that I need to cook a meal. I have a stove, oven, microwave, and a fridge. I also have a few pots and pans that I use to cook my meals. I also have a few spices that I use to season my food. In the early morning it also looks really nice because there is a window on the right where the sun shines through.</p>
+            </section>
+
+            <section id="how">
+                <h2>How to Cook</h2>
+                <p class="definition">Cooking is a skill that can be learned through practice and experimentation. Here are some tips to help you get started:</p>
+                <ul>
+                    <li>Start with simple recipes by searching on google and gradually work your way up to more complex dishes.</li>
+                    <li>Follow recipes carefully, but don't be afraid to make substitutions or add your own twist depending on what you have at home.</li>
+                    <li>Invest in good quality cookware and utensils as it will make cooking easier in the long term and more enjoyable.</li>
+                    <li>Experiment with different ingredients and flavors to make your own unique dishes and flavors.</li>
+                    <li>Have a go-to dish, this helps you learn a dish really well to the point where you don't have to look at a recipe anymore!</li>
+                </ul>
+                <br>
+                <figure>
+                    <img src="images/bread.jpg" alt="bread">
+                    <figcaption><i>Strawberry Cream filled Bread</i></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/tonkatsu.jpg" alt="tonkatsu">
+                    <figcaption><i>Tonkatsu</i></figcaption>
+                </figure>
+                <p>Don't be afraid to cook something different or new. Everything is experimental and also does not have to follow a recipe directly!</p>
+            </section>
+
+            <section id="why">
+                <h2>Why You Should Cook</h2>
+                <p class="definition">Cooking is a valuable skill that can benefit you in many ways:</p>
+                <ul>
+                    <li>Enjoyable Food: You can make foods that you would enjoy better and want to try out.</li>
+                    <li>Save money: You can save a lot of money by cooking your own food.</li>
+                    <li>Share with others: Cooking with friends or family is a great way to make memories as well as sharing lots of great food!</li>
+                    <li>Relieve stress: In my opinion cooking can be very therapeutic and stress relieving as it takes your mind off of things easily.</li>
+                </ul>
+                <figure>
+                    <img src="images/family.png" alt="family">
+                    <figcaption><i>Family & Friends Cooking Together</i></figcaption>
+                </figure>
+
+                <p>Overall cooking is a great skill and hobby to pick up! It's useful because everyone needs to eat, so why not learn to make it yourself to learn the real values and efforts of cooking food!</p>
+            </section>
+            </main>
+
+        <footer>
+            <p class="tag">Built by <a href="../phannfirm.com/index.html">Phann Firm</a> <a class= "link" href="https://www.freecodecamp.org/certification/MonicaPhann/responsive-web-design"><i>Certified in Responsive Web Design ©2025</i></a></p>
+        </footer>
+    </body>
+</html>

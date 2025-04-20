@@ -1,0 +1,22 @@
+p{
+    text-align: center;
+    font-size: 100px
+}
+.centered-list {
+    list-style-position: inside; /* keeps bullets inside the box */
+    text-align: center;
+    padding: 0;
+  }
+.link{
+    text-decoration: underline;
+    color: #0000FF;
+    font-size: 20px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+
+    border-top: 20px dotted red;
+    border-right: 20px dashed blue;
+    border-bottom: 20px double green;
+    border-left: 20px solid purple;
+}
