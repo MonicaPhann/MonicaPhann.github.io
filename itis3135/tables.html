@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monica Phann's Marvelous Panda || ITIS 3135 Tables</title>
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/default.css">
+    </head>
+    <body>
+        <header>
+            <div data-include="components/header.html"></div>
+        </header>
+        <br>
+
+        <main>
+            <h2>HTML Tables</h2>
+            
+            <h3>My Tabular Data</h3>
+            <ol class="TableData">
+                <li>Amanda Lee - alee@brightvision.io - 6 years</li>
+                <li>Daniel Patel - dpatel88@devwave.com - 11 years</li>
+                <li>Karen Thompson - kthompson@outlook.com - 4 years</li>
+                <li>Marcus Nguyen - mnguyen@synergylabs.org - 9 years</li>
+                <li>Lauren Brooks - lbrooks19@gmail.com - 2 years</li>
+                <li>Steven Park - spark@nextgenanalytics.com - 14 years</li>
+                <li>Emily Rivera - erivera@futurenetworks.io - 5 years</li>
+                <li>Anthony Carter - acarter@techbridge.net - 8 years</li>
+            </ol>
+
+            <h3>Employee Data in Simple Table</h3>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                </tr>
+                <tr>
+                    <td>Amanda Lee</td>
+                    <td>alee@brightvision.io</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Daniel Patel</td>
+                    <td>dpatel88@devwave.com</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>Karen Thompson</td>
+                    <td>kthompson@outlook.com</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Marcus Nguyen</td>
+                    <td>mnguyen@synergylabs.org</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Lauren Brooks</td>
+                    <td>lbrooks19@gmail.com</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Steven Park</td>
+                    <td>spark@nextgenanalytics.com</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>Emily Rivera</td>
+                    <td>erivera@futurenetworks.io</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Anthony Carter</td>
+                    <td>acarter@techbridge.net</td>
+                    <td>8</td>
+                </tr>
+            </table>
+            <h3>Employee Data in Complex Table</h3>
+
+            <figure>
+                <figcaption>Employee Information</figcaption>
+                <table class="complex-table">
+                    <thead>
+                        <tr>
+                            <th id="department">Department</th>
+                            <th id="name">Name</th>
+                            <th id="email">Email</th>
+                            <th id="years">Years of Service</th>
+                            <th id="salary">Monthly Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3" headers="department">Engineering</td>
+                            <td headers="name">Amanda Lee</td>
+                            <td headers="email">alee@brightvision.io</td>
+                            <td headers="years">6</td>
+                            <td headers="salary">$6,800</td>
+                        </tr>
+                        <tr>
+                            <td headers="name">Marcus Nguyen</td>
+                            <td headers="email">mnguyen@synergylabs.org</td>
+                            <td headers="years">9</td>
+                            <td headers="salary">$7,500</td>
+                        </tr>
+                        <tr>
+                            <td headers="name">Steven Park</td>
+                            <td headers="email">spark@nextgenanalytics.com</td>
+                            <td headers="years">14</td>
+                            <td headers="salary">$9,200</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" headers="department">Marketing</td>
+                            <td headers="name">Karen Thompson</td>
+                            <td headers="email">kthompson@outlook.com</td>
+                            <td headers="years">4</td>
+                            <td headers="salary">$5,100</td>
+                        </tr>
+                        <tr>
+                            <td headers="name">Lauren Brooks</td>
+                            <td headers="email">lbrooks19@gmail.com</td>
+                            <td headers="years">2</td>
+                            <td headers="salary">$4,600</td>
+                        </tr>
+                        <tr>
+                            <td headers="name">Emily Rivera</td>
+                            <td headers="email">erivera@futurenetworks.io</td>
+                            <td headers="years">5</td>
+                            <td headers="salary">$5,800</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" headers="department">Management</td>
+                            <td headers="name">Daniel Patel</td>
+                            <td headers="email">dpatel88@devwave.com</td>
+                            <td headers="years">11</td>
+                            <td headers="salary">$11,500</td>
+                        </tr>
+                        <tr>
+                            <td headers="name">Anthony Carter</td>
+                            <td headers="email">acarter@techbridge.net</td>
+                            <td headers="years">8</td>
+                            <td headers="salary">$10,400</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="3">Total Years of Service</th>
+                            <td>59</td>
+                            <td>$60,900</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </figure>
+            
+        </main>
+
+        <br>
+
+        <footer>
+            <div data-include="components/footer.html"></div>
+        </footer>
+        <script src="scripts/HTMLInclude.min.js"></script>
+        
+    </body>
+</html>
