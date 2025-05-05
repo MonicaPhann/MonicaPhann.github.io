@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monica Phann's Marvelous Panda || ITIS 3135 Homepage</title>
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        <style>
+            body {
+                background-color: #b9b8b8;
+                text-align: center;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            main {
+                margin: 20px;
+                padding: 20px;
+                background-color: rgb(212, 212, 212);
+                border-radius: 5px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            }
+
+            a{
+                color: rgb(88, 77, 65);
+            }
+
+            h2, p, ol, h3{
+                text-align: left;
+            }
+
+            ul{
+                text-align: left;
+                padding-bottom: 1%;
+            }
+            li{
+                padding-bottom: 1%;
+            }
+
+
+        </style>
+    </head>
+    <body>
+
+        <main>
+            <h1>Requirements and Design Document</h1>
+
+            <h2>Project Name: Mechanical Engineering Portfolio:</h2>
+
+            <hr>
+
+            <h2>Project Overview</h2>
+            <ul>
+                <li>
+                    <strong>Describe your application and its purpose:</strong>
+                    <p>This project is a personal portfolio website for a mechanical engineering student. The purpose of the website is to showcase the student’s academic background, technical skills, engineering projects, certifications, and resume to prospective employers, graduate schools, and collaborators. It serves as a digital resume, providing a professional online presence that highlights the student’s competencies and career goals.</p>
+                </li>
+                <li>
+                    <strong>Intented users of the website:</strong>
+                    <ul>
+                        <li>Potential employers in engineering or manufacturing industries.</li>
+                        <li>Graduate program admission officers.</li>
+                        <li>Professors or academic mentors.</li>
+                        <li>Networking contacts and peers.</li>
+                        <li>Recruiters and HR professionals.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Overview of the content of the website:</strong>
+                    <ul>
+                        <li>Home Page: Brief welcome and professional summary.</li>
+                        <li>About Me: Educational background, goals, and skills.</li>
+                        <li>Projects: Detailed descriptions and media from enineering projects.</li>
+                        <li>Resume: Downloadable resume and career highlights</li>
+                        <li>Contact: Form for inquiries and links to social/professional platforms.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <hr>
+
+            <h2>Client information: </h2>
+            <ul>
+                <li><strong>Name of the Client: </strong>[Private]</li>
+                <li><strong>Organization/Institute/Business the client is associated with: </strong>Student at UNC Charlotte</li>
+                <li><strong>Client's valid Email Address: </strong>[Private]</li>
+                <li><strong>Client's Phone Number: </strong>[Private]</li>
+            </ul>
+            <p style="text-align: left;"><i>Note: Contact details of the client are marked as [Private] for the client's privacy</i></p>
+
+            <hr>
+            <h2>Wireframe:</h2>
+            <figure>
+                <img src="images/wireframe.png" alt="Wireframe of the website">
+                <figcaption>Wireframe Diagram: <a href="https://drive.google.com/file/d/1mQAR-x7_KnqLGvCEtZ_dS0cvQ0WwoHia/view?usp=sharing">View Website</a></figcaption>
+            </figure>
+
+            <hr>
+
+            <h2>Site Map:</h2>
+            <p>A site map (or sitemap) is a file or page that lists all the important pages of a website to help users or search engines navigate the site more effectively.</p>
+            <figure>
+                <img src="images/sitemap.png" alt="Sitemap of the website">
+                <figcaption>Sitemap Diagram: <a href="https://drive.google.com/file/d/16ooMrf7V7ehwTyVSAKG3XjAqbLOZODmb/view?usp=sharing">View Website</a></figcaption>
+
+            </figure>
+            <p>Planned Pages:</p>
+            <ol>
+                <li>Home <i>(index.html)</i>.</li>
+                <li>About me <i>(about.html)</i>.</li>
+                <li>Projects <i>(projects.html)</i>.</li>
+                <li>Resume <i>(resume.html)</i>.</li>
+                <li>Contact <i>(contact.html)</i>.</li>
+            </ol>
+
+            <hr>
+
+            <h2>Page Design:</h2>
+            <p>Details for each page mentioned in the site map:</p>
+
+            <section>
+                <h3>Page 1: Home Page (index.html)</h3>
+                <ul>
+                    <li><strong>Purpose: </strong>First impression with a brief overview and welcome message.</li>
+                    <li><strong>Audience/Users: </strong>All users.</li>
+                    <li><strong>Content: </strong>Name, tagline, short bio, featured project preview.</li>
+                    <li><strong>User Input: </strong>None</li>
+                    <li><strong>Validation: </strong>N/A</li>
+                    <li><strong>Elements: </strong>Buttons linking to other pages</li>
+                    <li><strong>Actions: </strong> Smooth scroll or naviation using JavaScript</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Page 2: About me Page (about.html)</h3>
+                <ul>
+                    <li><strong>Purpose: </strong>Share background, education, and skills</li>
+                    <li><strong>Audience/Users: </strong>Employers, academics, students</li>
+                    <li><strong>Content: </strong>University info, GPA, coursework, technical and soft skills</li>
+                    <li><strong>User Input: </strong>None</li>
+                    <li><strong>Validation: </strong>N/A</li>
+                    <li><strong>Elements: </strong>Collapsible skill lists, hover animations</li>
+                    <li><strong>Actions: </strong>Toggle sections using jQuery UI</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Page 3: Projects Page (projects.html)</h3>
+                <ul>
+                    <li><strong>Purpose: </strong>Showcase engineering projects</li>
+                    <li><strong>Audience/Users: </strong>Employers, recruiters, instructors, students</li>
+                    <li><strong>Content: </strong>Project descriptions, tools used, images, videos, GitHub links</li>
+                    <li><strong>User Input: </strong>None</li>
+                    <li><strong>Validation: </strong>N/A</li>
+                    <li><strong>Elements: </strong>Image gallery, accordion/project filters using jQuery UI</li>
+                    <li><strong>Actions: </strong>AJAX to load project details dynamically</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Page 4: Resume Page (resume.html)</h3>
+                <ul>
+                    <li><strong>Purpose: </strong>Provide downloadable résumé and professional summary</li>
+                    <li><strong>Audience/Users: </strong>Employers, admissions teams, students</li>
+                    <li><strong>Content: </strong>PDF download, work experience, key achievements</li>
+                    <li><strong>User Input: </strong>None</li>
+                    <li><strong>Validation: </strong>N/A</li>
+                    <li><strong>Elements: </strong>Download button, model pop-up for resume preview</li>
+                    <li><strong>Actions: </strong>On click, show resume modal or start file download</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Page 5: Contact Page (resume.html)</h3>
+                <ul>
+                    <li><strong>Purpose: </strong>Allow users to get in touch</li>
+                    <li><strong>Audience/Users: </strong>Employers, collaborators, students</li>
+                    <li><strong>Content: </strong>Contact form (Name, Email, Message), social media links</li>
+                    <li><strong>User Input: </strong>Yes
+                        <ul>
+                            <li>Name (Text)</li>
+                            <li>Email (Email input)</li>
+                            <li>Message (Textarea)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Validation: </strong>
+                        <ul>
+                            <li>Name: Required, min 2 characters</li>
+                            <li>Email: Required, must be valid format</li>
+                            <li>Message: Required, 10+ Characters</li>
+                        </ul>
+                    </li>
+                    <li><strong>Elements: </strong>Form inputs, Submit button</li>
+                    <li><strong>Actions: </strong>On submit, validate inputs with JavaScript, send form data via AJAX</li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <h2>Dynamic Functionality on the Website:</h2>
+            <p>This portfolio website will incorporate several interactive and dynamic features using JavaScript and jQuery/jQuery UI to improve user experience, visual engagement, and usability. These interactive elements help present the student’s skills and projects in a professional and appealing way.</p>
+
+            <ul>
+                <li>
+                    <strong>1. Contact Form with Real-Time Validation:</strong>
+                    <ul>
+                        <li><strong>Page: </strong>Contact Page</li>
+                        <li><strong>Functionality: </strong>The form will include real-time validation using JavaScript. As the user types, it will validate the name (minimum 2 characters), email (valid format), and message (minimum 10 characters). If invalid, it will show an error immediately without submitting.</li>
+                        <li><strong>Why: </strong>Ensures data integrity and improves user experience with immediate feedback</li>
+                        <li><strong>Example Site: </strong><a href="https://getbootstrap.com/docs/5.0/forms/validation/">getbootstrap</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <strong>2. Project Gallery with Expandable Details:</strong>
+                    <ul>
+                        <li><strong>Page: </strong>Projects Page</li>
+                        <li><strong>Functionality: </strong>Projects will be listed with short summaries. Clicking on a project will either expand (accordion) or open a modal to display full details, images, and external links (like GitHub). This will be implemented using jQuery UI or a custom modal.</li>
+                        <li><strong>Why: </strong>Helps organize multiple projects cleanly without overwhelming the page; gives users control over what they want to explore.</li>
+                        <li><strong>Example Site: </strong><a href="https://www.behance.net/">behance</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <strong>3. Smooth Scroll Navigation:</strong>
+                    <ul>
+                        <li><strong>Page: </strong>All Pages (navigation)</li>
+                        <li><strong>Functionality: </strong>Clicking on nav links will smoothly scroll the page to the respective section using JavaScript/jQuery.</li>
+                        <li><strong>Why: </strong>Improves UX by making navigation feel polished and responsive.</li>
+                        <li><strong>Example Site: </strong><a href="https://css-tricks.com/snippets/jquery/smooth-scrolling/">css-tricks</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <strong>4. jQuery UI Tabs for Skills and Certifications:</strong>
+                    <ul>
+                        <li><strong>Page: </strong>About Me Page</li>
+                        <li><strong>Functionality: </strong>Skills and certifications will be organized in jQuery UI tabs, allowing users to switch between categories like “Software,” “Mechanical Tools,” and “Certifications.”</li>
+                        <li><strong>Why: </strong>Presents technical content in a compact and user-friendly format.</li>
+                        <li><strong>Example Site: </strong><a href="https://jqueryui.com/tabs/">jqueryui</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <strong>5. AJAX Form Submission:</strong>
+                    <ul>
+                        <li><strong>Page: </strong>Contact Page</li>
+                        <li><strong>Functionality: </strong>When the contact form is submitted, it will use AJAX to send the data to a server or mock endpoint without reloading the page. A success or error message will be displayed dynamically.</li>
+                        <li><strong>Why: </strong>Ensures a smoother user experience without disrupting navigation.</li>
+                        <li><strong>Example Site: </strong><a href="https://www.w3schools.com/jquery/ajax_ajax.asp">w3schools</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <strong>6. Image Hover Effects and Tooltips:</strong>
+                    <ul>
+                        <li><strong>Page: </strong>Projects Page</li>
+                        <li><strong>Functionality: </strong>On hovering over a project image, a short description or project name will appear via tooltip or overlay.</li>
+                        <li><strong>Why: </strong>Adds interactivity and gives a quick idea about the project before clicking.</li>
+                        <li><strong>Example Site: </strong><a href="https://tympanus.net/Development/HoverEffectIdeas/">tympanus</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </main>
+        
+    </body>
+</html>

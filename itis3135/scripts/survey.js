@@ -242,8 +242,10 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.delete-course-btn').forEach(function(button) {
         button.addEventListener('click', deleteCourseField);
     });
+
+
     
     prefillForm();
     
-    addCourseField();
+    //addCourseField();
 });

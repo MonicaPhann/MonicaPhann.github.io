@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monica Phann's Marvelous Panda || ITIS 3135 Slideshow</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/default.css">
+    </head>
+    <body>
+        <header>
+            <div data-include="components/header.html"></div>
+        </header>
+        <br>
+
+        <main>
+            <h2>Name Slideshow</h2>
+            <p>A slideshow gallery featuring items that start with each letter in my name: Monica Phann</p>
+
+        <br>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 11</div>
+                <img src="images/Slideshow/Matcha.jpg" alt="Matcha">
+                <div class="caption">M - for Matcha (1st letter in Monica)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 11</div>
+                <img src="images/Slideshow/Oldletter.jpg" alt="Old Letter">
+                <div class="caption">O - for Old Letter (2nd letter in Monica)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 11</div>
+                <img src="images/Slideshow/Nighttime.jpg" alt="Nighttime">
+                <div class="caption">N - for Nighttime (3rd letter in Monica)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 11</div>
+                <img src="images/Slideshow/IceSkating.jpg" alt="Ice Skating">
+                <div class="caption">I - for Ice Skating (4th letter in Monica)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 11</div>
+                <img src="images/Slideshow/Campfire.jpg" alt="Campfire">
+                <div class="caption">C - for Campfire (5th letter in Monica)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 11</div>
+                <img src="images/Slideshow/apollo.jpg" alt="Apollo">
+                <div class="caption">A - for Apollo (6th letter in Monica)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 11</div>
+                <img src="images/Slideshow/Panda.jpg" alt="Panda">
+                <div class="caption">P - for Panda (1st letter in Phann)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 11</div>
+                <img src="images/Slideshow/Hat.jpg" alt="Hat">
+                <div class="caption">H - for Hat (2nd letter in Phann)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 11</div>
+                <img src="images/Slideshow/Atlanta.jpg" alt="Atlanta">
+                <div class="caption">A - for Atlanta (3rd letter in Phann)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 11</div>
+                <img src="images/Slideshow/Nature.jpg" alt="Nature">
+                <div class="caption">N - for Nature (4th letter in Phann)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 11</div>
+                <img src="images/Slideshow/Nose.jpg" alt="Nose">
+                <div class="caption">N - for Nose (5th letter in Phann)</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="images/Slideshow/Matcha_smol.jpg" style="width:100%" onclick="currentSlide(1)" alt="Matcha">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/Slideshow/Oldletter_smol.jpg" style="width:100%" onclick="currentSlide(2)" alt="Old Letter">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/Slideshow/Nighttime_smol.jpg" style="width:100%" onclick="currentSlide(3)" alt="Nighttime">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/Slideshow/IceSkating_smol.jpg" style="width:100%" onclick="currentSlide(4)" alt="Ice Skating">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/Slideshow/campfire_smol.jpg" style="width:100%" onclick="currentSlide(5)" alt="Campfire">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/Slideshow/apollo_smol.jpg" style="width:100%" onclick="currentSlide(6)" alt="Apollo">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/Slideshow/Panda_smol.jpg" style="width:100%" onclick="currentSlide(7)" alt="Panda">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/Slideshow/Hat_smol.jpg" style="width:100%" onclick="currentSlide(8)" alt="Hat">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/Slideshow/Atlanta_smol.jpg" style="width:100%" onclick="currentSlide(9)" alt="Atlanta">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/Slideshow/Nature_smol.jpg" style="width:100%" onclick="currentSlide(10)" alt="Nature">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/Slideshow/Nose_smol.jpg" style="width:100%" onclick="currentSlide(11)" alt="Nose">
+              </div>
+          </div>
+
+        <br>
+        <ul>
+          <li style="text-align: left;">This was annoying to resize every element, I had to make a big one then smaller one for the preview.</li>
+          <li style="text-align: left;">This is my work and I did not copy and paste someone else's code.</li>
+          <li style="text-align: left;">Signed, Monica Phann 4/27/2025</li>
+        </ul> 
+            
+
+    </main>
+
+        <footer>
+            <div data-include="components/footer.html"></div>
+        </footer>
+        <script src="scripts/HTMLInclude.min.js"></script>
+        <script src="scripts/slideshow.js"></script>
+        
+    </body>
+</html>
